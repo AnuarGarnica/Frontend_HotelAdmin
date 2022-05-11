@@ -1,0 +1,5 @@
+CREATE TABLE Caracteristicas(
+	ID INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
+	Nombre VARCHAR(150),
+)
+	

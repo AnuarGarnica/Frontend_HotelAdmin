@@ -1,0 +1,20 @@
+CREATE TABLE Habitaciones(
+	HabitacionesID INT PRIMARY KEY IDENTITY (1,1) NOT NULL,
+	Titulo VARCHAR (250),
+	PalabrasClave VARCHAR (250),
+	Descripcion VARCHAR (MAX),
+	Costo NUMERIC (18,2),
+	Adultos INT,
+	Infantes INT,
+	Max_Adultos INT,
+	Max_Infantes INT,
+	CodigoPostal VARCHAR (5),
+	Latitud NUMERIC (18,2),
+	Longitud NUMERIC (18,2),
+	CostoAdicional_adulto NUMERIC (18,2),
+	CostoAdicional_infante NUMERIC (18,2),
+	TotalHabitaciones INT,
+	Activo BIT,
+	Calificacion DECIMAL (18,2),
+	HotelID INT
+)

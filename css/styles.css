@@ -1,16 +1,13 @@
-<style>
-
-.sign-in:link, .sign-in:visited,{
-    background-color:#f44336;
-    color:"white";
-    padding: 15px, 25px;
-    text-align:center;
+a.sign-in:link, a.sign-in:visited{
+    background-color: #464343;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
-
-}
-
-.sign-in:hover, .sign-in:active {
-    background-color: red;
   }
-</style>
+
+  a.sign-in:hover, a.sign-in:active {
+    background-color: rgb(83, 11, 11);
+  }
