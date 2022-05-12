@@ -1,13 +1,55 @@
-a.sign-in:link, a.sign-in:visited{
-    background-color: #464343;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
 
-  a.sign-in:hover, a.sign-in:active {
-    background-color: rgb(83, 11, 11);
-  }
+.navbar{
+  background: transparent !important;
+  top: 0; 
+}
+
+
+.trn a{
+  margin-right: 10px;
+  color: rgb(224, 224, 224) !important;
+  border-bottom: 2px solid transparent;
+  margin-bottom: 15px;
+  z-index: 99;
+}
+
+
+
+.trn a:hover {
+  border-bottom: 2px solid rgba(222, 221, 221, 0.559);
+  color:gray;
+  
+
+}
+
+
+.dropdown-menu{
+  background-color: hsla(0, 0%, 0%, 0.557) !important;
+  border-radius: 5%;
+}
+
+ul{
+  margin: 25px;
+}
+
+
+.dropdown-menu .li{
+  color:gray;
+}
+
+
+.nav-item .dropdown-menu .dropdown-item:hover{
+  background: rgba(104, 104, 104, 0.618);
+}
+
+
+.bg-primary {
+  background-color: rgba(0, 0, 0, 0.527) !important;
+  height: 80px;
+  transition:all 1.8s ease;
+  z-index: 100;  
+}
+
+.dropdown-toggle:after{
+  transition: transform 0.15s linear; 
+}

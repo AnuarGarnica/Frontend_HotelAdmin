@@ -11,29 +11,13 @@
     text-align: left;
 }
 
+
 .carousel-item img{ 
     object-fit: cover;
     height: 600px;
 }
 
-.trn{
-    background: transparent !important;
-    z-index: 99;
-
-}
 
 .section-carousel{
     margin-top: -100px;
-}
-
-
-.trn a{
-    margin-right: 30px;
-    color: #fff !important;
-    border-bottom: 2px solid transparent;
-}
-
-.trn a:hover {
-    border-bottom: 2px solid #fff;
-
 }
